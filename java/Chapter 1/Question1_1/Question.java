@@ -6,6 +6,7 @@ public class Question {
 		if (str.length() > 256) {
 			return false;
 		}
+		//int checker = 0;
 		int checker = 0;
 		for (int i = 0; i < str.length(); i++) {
 			int val = str.charAt(i) - 'a';
